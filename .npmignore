@@ -1,7 +1,12 @@
 .github
+node_modules
 src
+public
 .eslintrc.js
 .gitignore
-tsconfig.json
+eslint.config.js
+tsconfig*.json
 vite.config.ts
-*.log 
+*.log
+.vscode
+index.html 
