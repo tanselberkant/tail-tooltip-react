@@ -1,13 +1,20 @@
 {
   "name": "tail-toolwind-react",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A lightweight, customizable React tooltip component",
+  "license": "MIT",
+  "author": "Tansel Berkant Oflaz",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanselberkant/react-basic-tooltip.git"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
